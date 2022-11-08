@@ -13,7 +13,7 @@ class _SampleScreenState extends State<SampleScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Center(
+      body: const Center(
         child: Text('Learn State Management'),
       ),
     );
